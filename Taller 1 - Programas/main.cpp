@@ -23,7 +23,49 @@ int main(int argc, char** argv) {
 	
 	cout<<"el producto de la multiplicacion es "<<producto << endl;*/
 	
-//3 Polinomio grado n 
+	//2-Elevar una base a una potencia
+	
+	/* int base; 
+        int exponente; 
+        int contador = 0; 
+        float acumulador = 1; 
+     
+        do { 
+            cout<<"Introduzca base"<<endl; 
+            cin>>base; 
+            cout<<"Introduzca exponente"<<endl; 
+            cin>>exponente; 
+            
+        } while ((base == 0) && (exponente == 0)); 
+        
+        if ((base > 0) && (exponente == 0)) { 
+ 
+        } 
+                if (exponente < 0) { 
+                     
+                    while (contador > exponente) { 
+                        acumulador = acumulador / base; 
+                        contador = contador - 1; 
+                    } 
+ 
+                } else { 
+                    while (contador < exponente) { 
+                        acumulador = acumulador * base; 
+                        contador = contador + 1; 
+                    } 
+                } 
+             
+       
+        if ((base==0) && (exponente < 0 )) 
+        { 
+            cout<<"ERROR"<<endl; 
+        } 
+        else{ 
+        cout<<"El resutado final es: "<<acumulador<<endl; 
+        } 
+     
+	
+//3-Polinomio grado n 
 
 /*int n; 
 cout<<"ingrese el # de coeficientes" ;
@@ -49,7 +91,7 @@ for (int i=0; i<n; i++) {
 cout<<"\n valor numerico p ("<<x<<") = " <<p<<endl;
 */
 	
-//4 Factorial de un numero entero
+//4-Factorial de un numero entero
 
 /*int fac=0; 
 printf("Ingresa numero para calcular el factorial "); 
@@ -68,7 +110,7 @@ printf("El factorial de %d es: %d ", fac,r); */
 
 
 
-	//5 Division de dos enteros 
+//5-Division de dos enteros 
 /*	
 int dividendo,divisor,cociente=0,residuo; 
 cout<<"introduzca el dividendo\n"; 
