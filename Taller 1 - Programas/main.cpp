@@ -1,12 +1,13 @@
 #include <iostream>
 #include <math.h>
+#include <stdio.h>
+#include <conio.h> 
+
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
-
 int main(int argc, char** argv) {
 	
-	//1 Multiplicacion con sumas 
-
+//1 Hacer un programa la multiplicación de dos enteros sin signo usando solo sumas. 
 	
 	/*int x, y, producto; 
 	cout<< "ingrese numeros enteros a multiplicar : " <<endl;
@@ -20,10 +21,10 @@ int main(int argc, char** argv) {
 		producto=producto+x ;
 	
 	}
-	
 	cout<<"el producto de la multiplicacion es "<<producto << endl;*/
 	
-	//2-Elevar una base a una potencia
+	
+//2-Realice un programa que calcule la potencia de dos números enteros sin signo
 	
 	/* int base; 
         int exponente; 
@@ -65,15 +66,16 @@ int main(int argc, char** argv) {
         } 
      
 	
-//3-Polinomio grado n 
+//3-Realice un programa que calcule un polinomio de grado n, en donde los coeficientes del polinomio se encuentran almacenados en un vector k de n+1 posiciones, de la siguientes forma:
+pol(x,k,n)=i=0nkixi. En donde el ki se encuentra en la posición k[i] del vector k.
 
-/*int n; 
-cout<<"ingrese el # de coeficientes" ;
-cin>>n;
-float a [n]; //arreglo de coe
-float x;
+ /*int n; 
+ cout<<"ingrese el # de coeficientes" ;
+ cin>>n;
+ float a [n]; //arreglo de coe
+ float x;
 
-for (int i=0; i<n; i++) {
+ for (int i=0; i<n; i++) {
 	
 	cout<<"coeficiente a ["<< i <<"] = ";
 	cin>> a [i];
@@ -86,53 +88,31 @@ for (int i=0; i<n; i++) {
 	
 	for (int i=0; i<n; i++) {
 	p=p+a[i] * pow (x, i);
-	
 	}
-cout<<"\n valor numerico p ("<<x<<") = " <<p<<endl;
-*/
+ cout<<"\n valor numerico p ("<<x<<") = " <<p<<endl;*/
+
+
 	
-//4-Factorial de un numero entero
+//5-Realice un programa  calcule la división entera entre dos números enteros.
 
-/*int fac=0; 
-printf("Ingresa numero para calcular el factorial "); 
-scanf("%d",&fac); 
-int temp=fac-1; 
-int r=fac; 
-while (temp>=1) 
-{ 
-r=r*temp; 
-temp--; 
-} 
+    /*int dividendo,divisor,cociente=0,residuo; 
+    cout<<"introduzca el dividendo\n"; 
+    cin>>dividendo; 
+    cout<<"introduzca el divisor\n"; 
+    cin>>divisor; 
 
-printf("El factorial de %d es: %d ", fac,r); */
+    while(dividendo>divisor){ 
 
+    dividendo=dividendo-divisor; 
+    cociente=cociente+1; 
 
+     } 
 
-
-
-//5-Division de dos enteros 
-/*	
-int dividendo,divisor,cociente=0,residuo; 
-cout<<"introduzca el dividendo\n"; 
-cin>>dividendo; 
-cout<<"introduzca el divisor\n"; 
-cin>>divisor; 
-
-while(dividendo>divisor){ 
-
-dividendo=dividendo-divisor; 
-cociente=cociente+1; 
-
-} 
-
-residuo=dividendo; 
-cout<<"el resultado de la division es "<<cociente<<" y el residuo es "<<residuo; */
+    residuo=dividendo; 
+    cout<<"el resultado de la division es "<<cociente<<" y el residuo es "<<residuo; */
 	
 	
-	
-	
-	
-	
+		
 	system("pause");
 	return 0;
 }
